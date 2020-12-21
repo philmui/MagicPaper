@@ -13,6 +13,7 @@
 		DAD357DD25903FF7008D339A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD357DB25903FF7008D339A /* Main.storyboard */; };
 		DAD357DF25903FF8008D339A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD357DE25903FF8008D339A /* Assets.xcassets */; };
 		DAD357E225903FF8008D339A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD357E025903FF8008D339A /* LaunchScreen.storyboard */; };
+		DAD357EB259042CD008D339A /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DAD357EA259042CD008D339A /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DAD357DE25903FF8008D339A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD357E125903FF8008D339A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD357E325903FF8008D339A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD357EA259042CD008D339A /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harrypotter.mp4; path = Resources/harrypotter.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DAD357D425903FF7008D339A /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				DAD357EA259042CD008D339A /* harrypotter.mp4 */,
 				DAD357D525903FF7008D339A /* AppDelegate.swift */,
 				DAD357D725903FF7008D339A /* art.scnassets */,
 				DAD357D925903FF7008D339A /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			files = (
 				DAD357D825903FF7008D339A /* art.scnassets in Resources */,
 				DAD357E225903FF8008D339A /* LaunchScreen.storyboard in Resources */,
+				DAD357EB259042CD008D339A /* harrypotter.mp4 in Resources */,
 				DAD357DF25903FF8008D339A /* Assets.xcassets in Resources */,
 				DAD357DD25903FF7008D339A /* Main.storyboard in Resources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GK84AB28K;
 				INFOPLIST_FILE = MagicPaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GK84AB28K;
 				INFOPLIST_FILE = MagicPaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
